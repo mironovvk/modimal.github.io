@@ -1,0 +1,165 @@
+/* заголовки */
+@font-face {
+  font-family: "headigns-h1";
+  src: url(../fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "headigns-h2";
+  src: url(../fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "headigns-h3";
+  src: url(../fonts/montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "headigns-h4";
+  src: url(../fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "headigns-h5";
+  src: url(../fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "headigns-h6";
+  src: url(../fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+
+/* шрифты для боди */
+@font-face {
+  font-family: "Body-XL";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Body-LG";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Body-MD";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Body-SM";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Body-XS";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+
+/* шрифт каких-то надписей */
+@font-face {
+  font-family: "Caption-LG";
+  src: url(../fonts/montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Caption-MD";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Caption-SM";
+  src: url(../fonts/montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+/* шрифт кнопок */
+@font-face {
+  font-family: "Button-LG";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Button-SM";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+
+/* шрифты для хедеров */
+@font-face {
+  font-family: "Overline-LG";
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Overline-SM";
+  src: url(../fonts/montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+/* тут я подключаю шрифты */
+.body-xl {
+  font-family: "Body-XL";
+  font-size: 20px;
+}
+.body-lg {
+  font-family: "Body-LG";
+  font-size: 18px;
+}
+.body-md {
+  font-family: "Body-MD";
+  font-size: 16px;
+}
+.body-sm {
+  font-family: "Body-SM";
+  font-size: 14px;
+}
+.body-xs {
+  font-family: "Body-XS";
+  font-size: 64px;
+}
+
+h1 {
+  font-family: "headigns-h1";
+  font-size: 64px;
+  font-weight: bold;
+}
+h2 {
+  font-family: "headigns-h2";
+  font-size: 40px;
+  font-weight: bold;
+}
+h3 {
+  font-family: "headigns-h3";
+  font-size: 32px;
+  font-weight: 500;
+}
+h4 {
+  font-family: "headigns-h4";
+  font-size: 24px;
+  font-weight: bold;
+}
+h5 {
+  font-family: "headigns-h5";
+  font-size: 20px;
+  font-weight: bold;
+}
+h6 {
+  font-family: "headigns-h6";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.caption-lg {
+  font-family: "Caption-LG";
+  font-size: 14px;
+}
+.caption-md {
+  font-family: "Caption-MD";
+  font-size: 12px;
+}
+.caption-sm {
+  font-family: "Caption-SM";
+  font-size: 10px;
+}
+
+.btn-lg {
+  font-family: "Button-LG";
+  font-size: 16px;
+}
+.btn-sm {
+  font-family: "Button-SM";
+  font-size: 14px;
+}
+
+.overline-lg {
+  font-family: "Overline-LG";
+  font-size: 16px;
+}
+.overline-sm {
+  font-family: "Overline-SM";
+  font-size: 12px;
+}
